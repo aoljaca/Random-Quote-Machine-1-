@@ -1,0 +1,53 @@
+html { 
+  background: url(https://i.postimg.cc/vBXzp9xf/star-5074842-1920.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: turquoise;
+  margin-left: 30px;
+  color: #333333;
+  padding: 8px 8px 8px 8px;
+}
+
+#root {
+  margin: auto;
+  margin-bottom: 50%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 200px;
+  margin-bottom: -300px;
+}
+
+
+
+.fa {
+  border-radius: 50%;
+  width: 20px;
+  border-color: blue;
+} 
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+#new-quote {
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #quote-box {
+    font-size: 25px
+  }
+}
+
